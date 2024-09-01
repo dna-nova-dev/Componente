@@ -1,13 +1,58 @@
-.background{
-    background-color: #FFFF;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+
+    
+    
 }
 
-nav{
-font-family: Inter;
-font-size: 18px;
-font-weight: 600;
-line-height: 21.78px;
-text-align: left;
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 365px;
+}
+  
+.drag-areacontrato{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: left;
+
+    width: 350px;
+    height: 80px;
+    top: -395px;
+    left: 545px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+
+    box-sizing: border-box;
+    background: #D9D9D9;
+    
 
 }
 
+.drag-areaINE{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: left;
+    background: #FFFFFF;
+
+
+    width: 350px;
+    height: 80px;
+    top: -487px;
+    left: 545px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+
+    box-sizing: border-box;
+    background: #D9D9D9;
+    
+}
