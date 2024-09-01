@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="CSS/style.css">
-    <link rel="stylesheet" src="CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="CSS/style.css">
+   <link rel="stylesheet" href="CSS/reset.css">
     <title>PopUp - Actualizar datos</title>
 </head>
 <body>
-    <nav >
-        <p class="mesesRentados">Meses rentados:</p>
-        <p class="Ingreso">Ingreso: </p>
-        <p class="actualizarDatos">Actualizar infromación</p><input type="file" name="" id="input-file" hidden>
-        <div class="adjuntarContrato">Adjuntar contrato</div>
-        <div class="adjuntarINE">Adjuntar INE</div>
+    <nav>
+        <div class="drag-areacontrato" >
+            <p>Arrastra y suelta tu contrato aquí</p>
+            <input type="file" id="contratoInput" name="" hidden multiple>
+        </div>
+        <div class="drag-areaINE" >
+            <p>Arrastra y suelta tu INE aquí</p>
+            <input type="file" id="ineInput" name="" hidden multiple>
+        </div>
+        <button class="botonActualizarDatos">Actualizar datos</button>
+        <p class="PropiedadesNegocio">Propiedades de negocio</p>
+        <button class="botonterminarContrato">Terminar contrato</button>
     </nav>
-    <!-- Botones y texto-->
-     <button class="botonActualizarDatos">Actualizar datos</button>
-     <p class="PropiedadesNegocio">Propiedades de negocio</p>
-     <button class="botonterminarContrato">Terminar contrato</button>
+   
 
      <script src="index.js"></script>
 </body>
